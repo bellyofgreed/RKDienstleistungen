@@ -64,3 +64,6 @@ if ($result && isset($result['success']) && $result['success'] === true) {
 	echo '</script>';
 }
 ?>
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
